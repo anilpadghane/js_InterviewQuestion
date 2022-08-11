@@ -19,7 +19,7 @@ function showTime() {
   
     document.querySelector(
       "#time"
-    ).innerText = `TIME = ${hour} : ${minutes} : ${sec}`;
+    ).innerText = `TIME = ${hour}:${minutes}:${sec}`;
   }
   setInterval(showTime,2000)
 

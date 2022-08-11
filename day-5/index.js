@@ -21,7 +21,7 @@ function showTime() {
       "#time"
     ).innerText = `TIME = ${hour} : ${minutes} : ${sec}`;
   }
-  setInterval(showTime,1000)
+  setInterval(showTime,2000)
 
 
   //Que-4 Create an HTML page having content as Hello world and a button named Replace Text.
